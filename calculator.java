@@ -7,9 +7,10 @@ class Main {
         int second = 20;
 
         System.out.println(first + " " + second);
-
-        // add two numbers
-        int sum = first + second;
-        System.out.println("The sum is: " + sum);
+    }
+    class Calculator {
+        public int Add(int a, int b) {
+            return a + b;
+        }
     }
 }

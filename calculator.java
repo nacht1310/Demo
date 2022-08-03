@@ -11,5 +11,8 @@ class Main {
         // add two numbers
         int sum = first + second;
         System.out.println("The sum is: " + sum);
+        int nhan = first * second;
+        System.out.println("The sum is: " * sum);
+
     }
 }
